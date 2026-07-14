@@ -29,11 +29,6 @@ h3{
     letter-spacing: 1px;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 }
-h2{
-    text-align: center;
-    font-size: 30px;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-}
 
 a{
     border-radius: 20px;
@@ -46,6 +41,11 @@ a{
     font-weight: 500;
     box-shadow: 0 3px 8px rgba(0,0,0,0.25);
     transition: 0.25s ease;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
 main{

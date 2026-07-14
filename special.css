@@ -35,6 +35,19 @@ h3{
     letter-spacing: 1px;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 }
+
+a{
+    border-radius: 20px;
+    background-color: #0b0040;
+    padding: 20px;
+    margin-top: 0;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0;
+    font-weight: 500;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    transition: 0.25s ease;
+}
 h2{
     text-align: center;
     font-size: 28px;
@@ -42,19 +55,6 @@ h2{
     margin: 0 auto 30px;
     padding: 0 20px;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-}
-
-a{
-    border-radius: 20px;
-    background-color: #0b0040;
-    padding: 20px;
-    margin-top: 0px;
-    text-decoration: none;
-    color: white;
-    margin-bottom: 0px;
-    font-weight: 500;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
-    transition: 0.25s ease;
 }
 
 main{
