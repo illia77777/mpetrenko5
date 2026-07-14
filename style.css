@@ -25,9 +25,8 @@ nav{
     position: sticky;
     top: 0;
     z-index: 100;
-    flex-shrink: 0;
 }
-h3{
+h3 {
     margin-left: 30px;
     margin-top: 20px;
     color: white;
