@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Segoe UI', Sans-Serif;
+}
+
+.stupid-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    background: #030057;
+    background: linear-gradient(90deg, rgba(3, 0, 87, 1) 0%, rgba(5, 5, 125, 1) 35%, rgba(0, 127, 153, 1) 100%);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+h3{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+h2{
+    text-align: center;
+    font-size: 28px;
+    max-width: 750px;
+    margin: 0 auto 30px;
+    padding: 0 20px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+a{
+    border-radius: 20px;
+    background-color: #0b0040;
+    padding: 20px;
+    margin-top: 0;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0;
+    font-weight: 500;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    transition: 0.25s ease;
+}
+
+main{
+    background-color: #046E8F;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: #faf5d2;
+}
+
+main h3{
+    max-width: 650px;
+    margin: 0 auto 16px;
+    padding: 16px 22px;
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 4px solid #ffdd57;
+    border-radius: 10px;
+    color: white;
+    text-shadow: none;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+main h3:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.3);
+}
+p{
+    margin: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+img{
+    border-radius: 20px;
+    box-shadow: 0 8px 22px rgba(0,0,0,0.3);
+}
+footer{
+    padding: 25px 20px;
+    background: linear-gradient(90deg, rgba(3, 0, 87, 1) 0%, rgba(5, 5, 125, 1) 35%, rgba(0, 127, 153, 1) 100%);
+    color: white;
+    text-align: center;
+    box-shadow: 0 -4px 15px rgba(0,0,0,0.25);
+}
+footer p{
+    font-size: 15px;
+    opacity: 0.85;
+    margin: 4px 0;
+}
+div{
+    margin: 20px;
+    border: 2px solid #195159;
+    border-radius: 20px;
+}
+a:hover{
+    text-align: center;
+    font-size: 20px;
+    transition: 0.25s;
+    padding: 20px;
+    background-color: #0a0236;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.4);
+}
